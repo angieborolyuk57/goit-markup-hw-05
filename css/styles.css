@@ -504,11 +504,6 @@ text-align: center;
   gap:30px;
 }
 
-.clients-item{
-
-
-}
-
 .clients-link{
   display:flex;
   align-items: center;
@@ -532,6 +527,7 @@ transition-property: fill;
 
 .clients-link:hover,
 .clients-link:focus{
+  border: 1px solid var(--accent-color);
   fill:var(--accent-color);
 }
 
@@ -675,7 +671,11 @@ color:var(--primary-white);
   transform: translate(-50%, -50%);
   background-color: var(--primary-white);
  width:528px;
-  max-height:581px;
+  height:581px;
+  transition-property: visibility;
+  transition-duration:250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-headline{
