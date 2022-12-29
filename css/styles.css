@@ -654,6 +654,7 @@ color:var(--primary-white);
   border-radius: 50%;
 }
 
+/* Form*/
 .subscription{
   width:570px;
   height:86px;
@@ -690,7 +691,24 @@ color:var(--primary-white);
 }
 
 .subscribe-button{
-  
+  border-radius:4px;
+  border: 1px Solid var(--accent-color);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height:1.88;
+  letter-spacing: 0.06em;
+
+  color:var(--primary-white);
+  background-color: var(--accent-color);
+  cursor:pointer; 
+
+  transition-property: color, background-color, box-shadow;
+  transition-duration:250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   width:200px;
   height:50px;
 
